@@ -105,6 +105,7 @@ import (
 // 	} `json:"comp-7-s-2021.11.23"`
 // }
 
+// defining the struct to represent the json hierarchy
 type Analyzer struct {
 	Autocomplete struct {
 		Filter    []string `json:"filter"`
@@ -173,11 +174,13 @@ type Assignment1 struct {
 
 func main() {
 
+	//reading the json data from data.json file
 	content, err := ioutil.ReadFile("data.json")
 	if err != nil {
 		fmt.Println(err.Error())
 	}
 
+	//unmarshel the data structure into go struct
 	var data Assignment1
 	err2 := json.Unmarshal(content, &data)
 	if err2 != nil {
