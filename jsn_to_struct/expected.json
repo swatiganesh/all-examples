@@ -1,0 +1,22 @@
+{
+    "Comp7S20211122": {
+      "Settings": {
+        "Index": {
+          "RefreshInterval": "1s",
+          "NumberOfShards": "5",
+          "ProvidedName": "comp-7-s-2021.11.22"
+          
+        }
+      }
+    },
+    "Comp7S20211123": {
+      "Settings": {
+        "Index": {
+          "RefreshInterval": "1s",
+          "NumberOfShards": "5",
+          "ProvidedName": "comp-7-s-2021.11.23"
+          
+        }
+      }
+    }
+  }
