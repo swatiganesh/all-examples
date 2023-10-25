@@ -132,3 +132,5 @@ func main() {
 	// fmt.Println("Analyzer Tokenizer Type (Comp7S20211123):", data.Comp7S20211123.SettingsConfig.Index.Analysis.Analyzer.Tokenizer.Type)
 
 }
+
+// go test ./... -v
